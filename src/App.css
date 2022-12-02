@@ -1,0 +1,87 @@
+* {
+  font-family: "Poppins", sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+img {
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+img {
+  pointer-events: none;
+}
+.movie_card {
+  padding: 0 !important;
+  width: 15rem;
+  margin: 14px;
+  border-radius: 10px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.movie_card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 20rem;
+}
+.movie_info {
+  color: #5e5c5c;
+}
+
+.movie_info i {
+  font-size: 20px;
+}
+.card-title {
+  width: 100%;
+  height:1.5rem;
+}
+.button_1 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  right: 10px;
+  bottom: 160px;
+  font-size: 27px;
+  padding-left: 21px;
+  padding-top: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button_2 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  right: 80px;
+  bottom: 160px;
+  font-size: 27px;
+  padding-left: 21px;
+  padding-top: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* ////////////// */
+.btn-circle.btn-xl {
+  width: 55px;
+  height: 55px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
